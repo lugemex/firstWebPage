@@ -1,0 +1,50 @@
+/* Rules of colors for new Image KraussMaffei
+orange=rgb(255,131,0);
+lightBlue=rgb(0,120,202);
+darkBlue=rgb(0,50,90);
+darkGrey=rgb(134,134,134)
+lightGrey=rgb(204,204,204)
+fontColor=rgb(65,65,65)
+typeFont= Arial
+*/
+body{
+    text-align: center;
+    width: 850px;
+    margin:20px auto; /* se puede usar float:left/rigth */
+   /* border:1px solid rgb(65,65,65);
+    border-radius: 8px;
+    box-shadow: rgb(65,65,65) 3px 5px 8px;*/
+    background-image: url("../pictures/newBackground.png");
+    background-position: center;
+    font-family: Arial;
+}
+header{
+    color: rgb(255, 131, 0);
+}
+.twoColumns{
+    overflow: auto;
+    display: flex; /*para autoajustar el contenido a la tabla*/
+    clear: both;
+}
+
+.leftColumn{
+    float: left;
+}
+.rightColumn{
+    float: right;    
+    text-align: justify;
+}
+
+.titleParagraph{
+    color: rgb(255, 131, 0);
+}
+.textParagraph{
+ color:white;
+margin: 20px; 
+}
+
+footer{
+    clear: both;
+    color: rgb(0, 120, 202);
+    font-style: oblique;
+}

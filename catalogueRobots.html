@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- SE INDICA QUE SE TRABAJA CON HTML5-->
+<html lang="en">
+    <head>
+        <title>Catalogue Robots KraussMaffei</title>
+        <meta name="Augusto Aguirre" content="automation">
+        <meta charset="UTF-8" /> <!-- / se agrega por temas de compatibilidad con versiones anteriores de html-->
+        <meta name="keywords" content="HTML5, CSS3" /> <!--solo es usado para motores de busqueda, no es visible para el usauario-->
+        <meta rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"> <!-- se llama al fichero estilos.css localizado en la carpeta css-->
+    </head>
+    <body>
+        <header><h1>Catalogue Robots</h1></header>
+        <section class="leftColumn">
+            <form id="industrialRobots" action="industrialRobots.html" method="post">
+                <input type="image" src="pictures/industrialRobots.png" alt="industrial robot" height="200" width="200">
+                <h3 class="titleParagraph">Industrial Robots</h3>
+            </form>
+            <form id="compactRobots" action="compactRobots.html" methode="post">
+                <input type="image" src="pictures/compactRobots.png" alt="compact robot" height="200" width="240">
+                <h3 class="titleParagraph">Compact Robots</h3>
+            </form>
+        </section>
+
+        <form action="index.html" method="POST">
+            <input type="submit" Value="Exit">
+        </form>
+
+        <aside class="rightColumn">        
+            <form id="spruePicker" action="spruePicker.html" methode="post">
+                <input type="image" src="pictures/spruePicker.png" alt="sprue Picker" height="200" width="240">
+                <h3 class="titleParagraph">Sprue Robots</h3>
+            </form>
+            <form id="linearRobots" action="linearRobots.html" methode="post">
+                <input type="image" src="pictures/linearRobots.png" alt="linear Robots" height="200" width="240">
+                <h3 class="titleParagraph">Linear Robots</h3>
+            </form>
+        </aside>
+        
+        <footer id="footer"><h1>Krauss Maffei</h1></footer>
+    </body>
+</html>
