@@ -11,9 +11,6 @@ body{
     text-align: center;
     width: 850px;
     margin:20px auto; /* se puede usar float:left/rigth */
-   /* border:1px solid rgb(65,65,65);
-    border-radius: 8px;
-    box-shadow: rgb(65,65,65) 3px 5px 8px;*/
     background-image: url("../pictures/newBackground.png");
     background-position: center;
     font-family: Arial;
@@ -39,12 +36,52 @@ header{
     color: rgb(255, 131, 0);
 }
 .textParagraph{
- color:white;
-margin: 20px; 
+    color:white;
+    margin: 20px; 
 }
 
 footer{
     clear: both;
     color: rgb(0, 120, 202);
     font-style: oblique;
+}
+
+.exitButton{
+    background: rgb(0, 120, 202);
+    opacity: 1;
+    border: none;
+    border-radius: 3em;
+    color: rgb(255, 131, 0);
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 150px;
+    height:60px;
+    transition: all .3s;
+}
+
+/* CSS usado en funciones jQuery*/
+.robotsButton{
+    background: rgb(255, 131, 0);
+    opacity: .5;
+    border: none;
+    border-radius: 3em;
+    color: rgb(0, 120, 202);
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 300px;
+    height:60px;
+    transition: all .3s;
+}
+.borderImage{
+ border:1px solid rgb(65,65,65);
+    border-radius: 8px;
+    box-shadow: rgb(65,65,65) 3px 5px 8px;
+}
+
+.btnActive{
+    opacity: 1;
+}
+
+.btnInactive{
+    opacity: .5;
 }
