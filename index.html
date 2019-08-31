@@ -13,7 +13,7 @@
             <img src="pictures/newLogo.png" alt="new logo" height="400" width="480">
             <script>
                 $img=$('img');
-                $img.click(
+                $img.on('click',
                     function(){
                     var tuNombre="desconocido";
                     tuNombre=prompt("Hola, ¿Cuál es tu nombre?:"); //aparece una ventana con un lugar para escribir texto ACEPTAR/cANCELAR
