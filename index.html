@@ -13,9 +13,12 @@
             <img src="pictures/newLogo.png" alt="new logo" height="400" width="480">
             <script>
                 $img=$('img');
+                $img.on('mouseenter',function(){
+                    $(this).css('cursor','grab');
+                });
                 $img.on('click',
                     function(){
-                    var tuNombre="desconocido";
+                    var tuNombre;
                     tuNombre=prompt("Hola, ¿Cuál es tu nombre?:"); //aparece una ventana con un lugar para escribir texto ACEPTAR/cANCELAR
                     if(tuNombre != null){
                         alert("Bienvendi@ "+tuNombre+".");//aparece una ventana con el mensaje y un botón ACEPTAR
